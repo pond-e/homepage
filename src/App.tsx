@@ -5,6 +5,7 @@ import MainPage from './pages/MainPage';
 import WorksPage from './pages/WorksPage';
 import ArticlesPage from './pages/ArticlesPage';
 import AffiliationsPage from './pages/AffiliationsPage';
+import CansatIntro from './blogs/cansat-intro';
 import "./globals.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/works" element={<WorksPage />} />
                     <Route path="/articles" element={<ArticlesPage />} />
                     <Route path="/affiliations" element={<AffiliationsPage />} />
+                    <Route path="/blogs/cansat-intro" element={<CansatIntro />} />
                 </Routes>
             </main>
         </div>

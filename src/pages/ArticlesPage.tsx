@@ -17,6 +17,16 @@ export default function ArticlesPage() {
   // 記事データのモック
   const articles = [
     {
+      id: 10,
+      title: "宇宙好き集まれ!? 明石高専で模擬人工衛星を作ってみよう！",
+      excerpt: "こんにちは、pondです！今回はまずこの記事を書こうと思った経緯から書いていきたいと思います...",
+      category: "学校",
+      date: "2022年3月24日",
+      readTime: "10分",
+      image: "./images/satellite_rocket.png",
+      link: "https://pond6814.net/blogs/cansat-intro/"
+    },
+    {
       id: 9,
       title: "2025年1月から5月までの進捗",
       excerpt: "3月末まで 種子島ロケットコンテスト CanSat部門 おそらく、現役最後の CanSat の大会で良い結果を残せるように Ca...",
