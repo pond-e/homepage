@@ -17,6 +17,16 @@ export default function ArticlesPage() {
   // 記事データのモック
   const articles = [
     {
+      id: 11,
+      title: "自宅の Windows PC にリモートデスクトップ接続するために Tailscale を使ったら簡単にVPN環境を構築できた件",
+      excerpt: "Tailscaleがルーターの設定（ポート開放など）なしでVPNを構築できる主な理由は、「NATトラバーサル（NAT越え）」という技術と、「コーディネーションサーバー ...",
+      category: "ネットワーク",
+      date: "2026年2月1日",
+      readTime: "5分",
+      image: "https://iframely.net/Vr2dIUHE/thumbnail?maxwidth=960",
+      link: "https://zenn.dev/pond6814/articles/513460ad4fb339"
+    },
+    {
       id: 10,
       title: "宇宙好き集まれ!? 明石高専で模擬人工衛星を作ってみよう！",
       excerpt: "こんにちは、pondです！今回はまずこの記事を書こうと思った経緯から書いていきたいと思います...",
@@ -125,7 +135,7 @@ export default function ArticlesPage() {
   ]
 
   // カテゴリー一覧
-  const categories = ["すべて", "組み込み", "Web", "日記", "学校"]
+  const categories = ["すべて", "組み込み", "Web", "日記", "学校", "ネットワーク"]
 
   // 検索とフィルタリングの状態管理
   const [searchQuery, setSearchQuery] = useState("")
