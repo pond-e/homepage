@@ -24,6 +24,14 @@ const truncateText = (text: string, maxLength: number): string => {
 // データ
 const worksData: WorkData[] = [
     {
+        id: 13,
+        title: "CanSat 2024",
+        description: "NSE, ARLISS, 種子島ロケットコンテスト フルサクセス 敢闘賞",
+        imageSrc: "./images/cansat2024_2.jpg",
+        imageAlt: "cansat2024_2.jpg",
+        link: "http://www.jaxa-rocket-contest.jp/past/2025/",
+    },
+    {
         id: 1,
         title: "BgGapFiller",
         description: "背景画像生成 Web アプリ",
@@ -70,14 +78,6 @@ const worksData: WorkData[] = [
         imageSrc: "./images/bridge_website2.png",
         imageAlt: "bridge_website2.png",
         link: "https://pond-e.github.io/bridge_detection_demo/",
-    },
-    {
-        id: 13,
-        title: "CanSat 2024",
-        description: "NSE, ARLISS, 種子島ロケットコンテスト フルサクセス 敢闘賞",
-        imageSrc: "./images/cansat2024_2.jpg",
-        imageAlt: "cansat2024_2.jpg",
-        link: "http://www.jaxa-rocket-contest.jp/past/2025/",
     },
     {
         id: 7,
