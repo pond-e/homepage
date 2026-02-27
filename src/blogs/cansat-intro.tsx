@@ -89,19 +89,24 @@ function AffiliationsPage() {
                 <p className="mt-6">まず、活動しようと思ったら目標がないと締まりません。ということで高専生で模擬人工衛星の大会と言ったらそう、<strong>缶サット甲子園</strong>に出場してみましょう！</p>
                 <p className="mt-6">とはいえ、缶サット甲子園とは何ぞやという方もいらっしゃると思うので、まずは缶サット甲子園について軽く紹介しましょう。もしもっと知りたいという方がいたら、是非缶サット甲子園の公式サイトもご覧ください。</p>
                 <div className="mt-6"></div>
-                {greenBox(
-                    <>
-                        缶サット甲子園の公式サイトは
-                        <a 
-                            href="http://www.space-koshien.com/cansat/index.html" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800 underline ml-1"
-                        >
-                            こちらから
-                        </a>
-                    </>
-                )}
+                <div className="bg-green-100 p-1.5 rounded-lg flex items-center border-2 border-lime-500">
+                    <div className="check-container">
+                        <div className="check-icon"></div>
+                    </div>
+                    <div className="ml-2">
+                        <p className="text-green-700">
+                            缶サット甲子園の公式サイトは
+                            <a 
+                                href="http://www.space-koshien.com/cansat/index.html" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="text-blue-600 hover:text-blue-800 underline ml-1"
+                            >
+                                こちらから
+                            </a>
+                        </p>
+                    </div>
+                </div>
                 <p className="mt-6">缶サット甲子園について一部を公式サイトから抜粋させていただくと、缶サット甲子園とは</p>
                 <div className="mt-6"></div>
                 {quote("缶サット甲子園とは、高校生が自作した缶サット（空き缶サイズの模擬人工衛星）を打上げ、上空での放出・降下・着地の過程を通じて、技術力・創造力を競う競技会です。従来の競技会のように「定められた技能」を競うのではなく、生徒の皆さんが斬新でオリジナリティーのある缶サットを作り、「coolさ」を競います。", "http://www.space-koshien.com/cansat/index.html より引用(2022/3/23)")}

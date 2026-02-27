@@ -18,8 +18,8 @@ export function h3(message: string) {
 export function greenBox(message: string) {
     return (
         <div className="bg-green-100 p-1.5 rounded-lg flex items-center border-2 border-lime-500">
-            <div class="check-container">
-                <div class="check-icon"></div>
+            <div className="check-container">
+                <div className="check-icon"></div>
             </div>
             <div className="ml-2">
                 <p className="text-green-700">{message}</p>
@@ -31,7 +31,7 @@ export function greenBox(message: string) {
 export function quote(message: string, cite: string) {
     return (
         <div>
-            <blockquote class="custom-quote">
+            <blockquote className="custom-quote">
                 <p>
                     {message}
                 </p>
