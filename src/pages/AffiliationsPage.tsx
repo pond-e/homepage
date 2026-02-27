@@ -13,6 +13,7 @@ function AffiliationsPage() {
                 <div className="border-t border-gray-300 mt-4 pt-4">
                     <h2 className="text-lg font-semibold mb-2">所属歴</h2>
                     <ul className="list-disc list-inside text-gray-700">
+                        <li>筑波大学 「結」プロジェクト (2025.04 ~ 現在)</li>
                         <li>筑波大学 宇宙技術プロジェクト(STEP) (2024.04 ~ 2025.03)</li>
                         <li>筑波大学 TPC (2024.04 ~ 現在)</li>
                         <li>明石高専 BizTechプロジェクト (2022.10 ~ 2026.03)</li>

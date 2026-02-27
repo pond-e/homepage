@@ -40,6 +40,14 @@ const worksData: WorkData[] = [
         link: "https://motibe-devops-geek202507.github.io/MotivationTimer/",
     },
     {
+        id: 20,
+        title: "人工衛星「TSUKUTO」",
+        description: "筑波大学 「結」プロジェクトにて1U立方体サイズの超小型人工衛星を開発しています。",
+        imageSrc: "https://yui.kz.tsukuba.ac.jp/thumbnail2_hu_c51266384357b94e.png",
+        imageAlt: "tsukuto_overview",
+        link: "https://yui.kz.tsukuba.ac.jp/",
+    },
+    {
         id: 1,
         title: "BgGapFiller",
         description: "背景画像生成 Web アプリ",
