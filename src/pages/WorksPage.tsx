@@ -25,7 +25,7 @@ const truncateText = (text: string, maxLength: number): string => {
 const worksData: WorkData[] = [
     {
         id: 13,
-        title: "CanSat 2024",
+        title: "CanSat",
         description: "NSE, ARLISS, 種子島ロケットコンテスト フルサクセス 敢闘賞",
         imageSrc: "./images/cansat2024_2.jpg",
         imageAlt: "cansat2024_2.jpg",
