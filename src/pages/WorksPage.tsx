@@ -26,7 +26,7 @@ const worksData: WorkData[] = [
     {
         id: 13,
         title: "CanSat",
-        description: "NSE, ARLISS, 種子島ロケットコンテスト フルサクセス 敢闘賞",
+        description: "種子島ロケットコンテスト 敢闘賞, NSE, ARLISS",
         imageSrc: "./images/cansat2024_2.jpg",
         imageAlt: "cansat2024_2.jpg",
         link: "http://www.jaxa-rocket-contest.jp/past/2025/",
