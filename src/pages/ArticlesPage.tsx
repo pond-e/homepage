@@ -27,6 +27,16 @@ export default function ArticlesPage() {
       link: "https://zenn.dev/pond6814/articles/513460ad4fb339"
     },
     {
+      id: 12,
+      title: "2025年6月から12月までの進捗",
+      excerpt: "6月 ICPCにちょっとでも役に立てるようにAtCoderちょっとやってた 結で電源マイコンのプログラムの単体テストを始めだした 7月 IC…",
+      category: "日記",
+      date: "2025年1月2日",
+      readTime: "10分",
+      image: "./images/hatena-blog.png",
+      link: "https://roki-ars.hatenablog.com/entry/2026/01/02/164337"
+    },
+    {
       id: 10,
       title: "宇宙好き集まれ!? 明石高専で模擬人工衛星を作ってみよう！",
       excerpt: "こんにちは、pondです！今回はまずこの記事を書こうと思った経緯から書いていきたいと思います...",
