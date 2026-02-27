@@ -32,6 +32,14 @@ const worksData: WorkData[] = [
         link: "http://www.jaxa-rocket-contest.jp/past/2025/",
     },
     {
+        id: 19,
+        title: "モチベタイマー",
+        description: "「名言と共に学習を可視化・習慣化」 モチベタイマーは、勉強や作業の時間を記録し、名言があなたのモチベーションを支えるタイマーアプリです。日々の学習を可視化して、自己効力感を高めるサポートをします。",
+        imageSrc: "./images/motivation_timer_overview.png",
+        imageAlt: "motivation_timer_overview.png",
+        link: "https://motibe-devops-geek202507.github.io/MotivationTimer/",
+    },
+    {
         id: 1,
         title: "BgGapFiller",
         description: "背景画像生成 Web アプリ",
